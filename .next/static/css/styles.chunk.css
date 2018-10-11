@@ -1,14 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Asap);
 body {
-  background-color: #244A57;
-  color: #DDE7DC; }
+  background-color: #244A57; }
 
 p {
   font-family: 'Asap', sans-serif;
   color: #333; }
 
 h1 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  color: #FFF; }
+
+h2 {
   font-size: 2rem;
   margin-bottom: 10px; }
 
@@ -147,6 +151,12 @@ nav a {
 
 .colorPinky {
   color: #ED3B72; }
+
+.blackColor {
+  color: #333; }
+
+.whiteColor {
+  color: #fff; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
