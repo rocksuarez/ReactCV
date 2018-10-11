@@ -19,7 +19,7 @@ export default ({ children, title = 'Ro Suarez DEV' }) => (
           <nav>
             <Link href='/'><a>Rodrigo</a></Link> 
             <Link href='/trabajos'><a>Experiencia</a></Link> 
-            <Link href='/contacto'><a>Contacto</a></Link>
+            <Link href='/contacto'><a href="mailto:rodry.leon@gmail.com?subject=iWantYou%20" target="_blanck">Contacto</a></Link>
           </nav>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default ({ children, title = 'Ro Suarez DEV' }) => (
     <footer>
     <div className="row">
         <div className="col s12 center">
-          <p>footer</p>
+          <p>Open source React/next CV <a href="https://github.com/rocksuarez/ReactCV">Git Repo</a> =) star me</p>
         </div>
       </div>
     </footer>

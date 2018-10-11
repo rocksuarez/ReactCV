@@ -15,19 +15,20 @@ export default () => (
                   <div className="avatarBg"></div>
                   <div className="infoDev">
                     <ul className="listDev">
-                      <li>Uno</li>
-                      <li>Dos</li>
-                      <li>Tres</li>
-                      <li>Cuatro</li>
+                      <li>Rodrigo Suárez</li>
+                      <li>Fullstack</li>
+                      <li>34 años</li>
+                      <li>5514872261</li>
+                      <li>rodry.leon@gmail.com</li>
                     </ul>
                   </div>
                   <div className="socialDev">
                   <section id="lab_social_icon_footer">
 <div className="socialBlock">
         <div className="text-center center-block">
-              <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" className="fa fa-facebook-square fa-3x social"></i></a>
-	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" className="fa fa-twitter-square fa-3x social"></i></a>
-	            <a href="mailto:#"><i id="social-em" className="fa fa-envelope-square fa-3x social"></i></a>
+              <a href="https://www.facebook.com/rodrigo.deleon" target="_blanck"><i id="social-fb" className="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://github.com/rocksuarez" target="_blanck"><i id="social-gh" className="fa fa-github-square fa-3x social"></i></a>
+	            <a href="mailto:rodry.leon@gmail.com?subject=iWantYou%20" target="_blanck"><i id="social-em" className="fa fa-envelope-square fa-3x social"></i></a>
     </div>
 </div>
 </section>

@@ -19,6 +19,9 @@ h2 {
 h1, h2, h3, h4, footer {
   font-family: 'Abril Fatface', cursive; }
 
+footer p {
+  color: #FFF; }
+
 nav {
   float: right;
   padding: 10px 0px 10px 10px;
@@ -167,7 +170,7 @@ nav a {
 .listDev {
   margin-top: 25px;
   text-align: center;
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .text-center {
   text-align: center; }
