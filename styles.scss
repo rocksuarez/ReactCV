@@ -90,22 +90,26 @@ nav a{
 .resumeBlock{
   background-color: $blueHardMed;
   min-height: 400px;
-  padding: 10px 15px
+  padding: 10px 15px;
+  border-radius: 4px
 }
 .devBlock{
   background-color: $blueLightMed;
   min-height: 400px;
   padding: 20px 15px 10px 15px;
+  border-radius: 4px
 }
 .toolsBlock{
   background-color: $grayLight;
-  padding: 10px 15px
+  padding: 10px 15px;
+  border-radius: 4px
 }
 .workBlock{
  background-color: $blueBaby;
  min-height: 250px;
   padding: 10px 15px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  border-radius: 4px
 }
 .w70{
   flex: 0 0 70%;
@@ -153,7 +157,8 @@ nav a{
   height: 100%;
   width: 100%;
   background-color: #FFF;
-  min-height: 250px
+  min-height: 250px;
+  border-radius: 4px
 }
 .text-right{
   text-align: right
@@ -172,7 +177,8 @@ nav a{
   background-position: center center
 }
 .btn{
-  background-color: $pinky
+  background-color: $pinky;
+  border-radius: 4px
 }
 .colorPinky{
   color: $pinky
@@ -182,4 +188,22 @@ nav a{
 }
 .whiteColor{
   color:$whiteColor
+}
+.listDev{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.2rem
+}
+.text-center{
+  text-align: center
+}
+.fa-3x{
+  font-size: 30px!important;
+  color: #FFF!important;
+}
+a .fa-3x:hover{
+  color:$pinky!important
+}
+.socialBlock a{
+  margin-right: 5px
 }
