@@ -4,9 +4,9 @@ body {
   background-color: #244A57;
   color: #DDE7DC; }
 
-p, nav a {
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Asap', sans-serif; }
+p {
+  font-family: 'Asap', sans-serif;
+  color: #333; }
 
 h1 {
   font-size: 2rem;
@@ -18,7 +18,7 @@ h1, h2, h3, h4, footer {
 nav {
   float: right;
   padding: 10px 0px 10px 10px;
-  background-color: transparent;
+  background-color: transparent !important;
   width: 100%;
   max-width: 300px;
   text-align: right; }
@@ -31,7 +31,9 @@ nav a {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
-  margin-left: 15px; }
+  margin-left: 15px;
+  color: #ED3B72;
+  font-family: 'Asap', sans-serif; }
 
 .typo50 {
   font-size: 50px; }
@@ -52,7 +54,7 @@ nav a {
 .devBlock {
   background-color: #89B9C5;
   min-height: 400px;
-  padding: 10px 15px; }
+  padding: 20px 15px 10px 15px; }
 
 .toolsBlock {
   background-color: #D8D8D8;
@@ -97,6 +99,9 @@ nav a {
 .mt10 {
   margin-top: 10px; }
 
+.mt15 {
+  margin-top: 15px; }
+
 .flex-container {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -114,6 +119,34 @@ nav a {
   background-color: #ccc;
   border-radius: 50px;
   display: inline-table; }
+
+.workBg {
+  height: 100%;
+  width: 100%;
+  background-color: #FFF;
+  min-height: 250px; }
+
+.text-right {
+  text-align: right; }
+
+.avatarBg {
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 50%;
+  max-width: 170px;
+  min-height: 170px;
+  background-image: url("/static/nerdRo.svg");
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.btn {
+  background-color: #ED3B72; }
+
+.colorPinky {
+  color: #ED3B72; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

@@ -12,8 +12,8 @@ export default ({ children, title = 'Ro Suarez DEV' }) => (
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </Head>
     <header>
-      <div class="row container mb0">
-        <div class="col s12">
+      <div className="row container mb0">
+        <div className="col s12">
           <nav>
             <Link href='/'><a>Rodrigo</a></Link> 
             <Link href='/trabajos'><a>Experiencia</a></Link> 
@@ -26,8 +26,8 @@ export default ({ children, title = 'Ro Suarez DEV' }) => (
       {children}
     </section>
     <footer>
-    <div class="row">
-        <div class="col s12 center">
+    <div className="row">
+        <div className="col s12 center">
           <p>footer</p>
         </div>
       </div>

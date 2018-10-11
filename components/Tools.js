@@ -1,7 +1,7 @@
 import css from "../styles.scss";
 
 export default () => (
-    <div class="container">
+    <div className="container">
             <div className="row mb0 mt0">
               <div className="col s12">
                 <div className="titleBlock">
