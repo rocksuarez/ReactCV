@@ -301,7 +301,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col s12 m8",
+    className: "col s12 m4 push-m8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -334,7 +334,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
       lineNumber: 10
     },
     __self: this
-  }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Perfil"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col s12",
     __source: {
       fileName: _jsxFileName,
@@ -342,7 +342,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "resumeBlock",
+    className: "devBlock",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -355,7 +355,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
     },
     __self: this
   }, "holi"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col s12 m4",
+    className: "col s12 m8 pull-m4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -388,7 +388,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
       lineNumber: 24
     },
     __self: this
-  }, "Perfil"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col s12",
     __source: {
       fileName: _jsxFileName,
@@ -396,7 +396,7 @@ var _jsxFileName = "/Users/imaca6/Documents/GitHub/ReactCV/components/Resume.js"
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "devBlock",
+    className: "resumeBlock",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
