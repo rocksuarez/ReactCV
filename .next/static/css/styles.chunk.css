@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Asap);
+body {
+  background-color: #244A57;
+  color: #DDE7DC; }
+
+p, nav a {
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Asap', sans-serif; }
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px; }
+
+h1, h2, h3, h4, footer {
+  font-family: 'Abril Fatface', cursive; }
+
+nav {
+  float: right;
+  padding: 10px 0px 10px 10px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px;
+  text-align: right; }
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 15px; }
+
+.typo50 {
+  font-size: 50px; }
+
+.flex-container {
+  order: 1px solid #555;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  width: 100%; }
+
+.resumeBlock {
+  background-color: #417D97;
+  min-height: 400px;
+  padding: 10px 15px; }
+
+.devBlock {
+  background-color: #89B9C5;
+  min-height: 400px;
+  padding: 10px 15px; }
+
+.toolsBlock {
+  background-color: #D8D8D8;
+  padding: 10px 15px; }
+
+.workBlock {
+  background-color: #C1DEE4;
+  min-height: 250px;
+  padding: 10px 15px;
+  margin-bottom: 30px; }
+
+.w70 {
+  flex: 0 0 70%; }
+  @media only screen and (max-width: 400px) {
+    .w70 {
+      flex: 0 0 100%; } }
+  @media only screen and (min-width: 401px) and (max-width: 769px) {
+    .w70 {
+      flex: 0 0 70%; } }
+  @media only screen and (min-width: 1024px) {
+    .w70 {
+      flex: 0 0 70%; } }
+
+.w30 {
+  flex: 0 0 30%; }
+  @media only screen and (max-width: 400px) {
+    .w30 {
+      flex: 0 0 100%; } }
+  @media only screen and (min-width: 401px) and (max-width: 769px) {
+    .w30 {
+      flex: 0 0 30%; } }
+  @media only screen and (min-width: 1024px) {
+    .w30 {
+      flex: 0 0 30%; } }
+
+.mb0 {
+  margin-bottom: 0px; }
+
+.mt0 {
+  margin-top: 0px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+
+.flex-container.justify-space-around {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: justify;
+  justify-content: space-around; }
+
+.tool {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50px;
+  display: inline-table; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
